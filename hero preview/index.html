@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+  <html lang="">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+    <script src="hero.1.0.0.js"></script>
+    <script src="fusion.1.0.0.js"></script>
+    </head>
+  <body>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(157, 157, 157, 0.75);
+  }
+  body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-element {
+    position: absolute;
+  }
+  .fusion--player {
+    background-color: rgba(157, 157, 157, 0.75);
+  }
+  
+  
+        #guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3 {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(157, 157, 157, 0.75);
+}
+#guid_06a851cc_2b15_46ed_859a_ac334f1f81c9 {
+  width: 312px;
+  height: 71px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 32, 51);
+  border: 1px solid rgba(112, 112, 112, 0.42);
+  border-radius: 10px 10px 10px 10px;
+}
+#guid_673d3de9_0396_4300_96c0_01919f91be2c {
+  width: 35.997px;
+  height: 36.004px;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 40, 68);
+  opacity: 0.25;
+  pointer-events: none;
+}
+#guid_7cd1d4c4_aef2_4969_9818_e95f8721fd9e {
+  width: 129px;
+  font-family: Rockwell;
+  font-size: 40px;
+  color: rgba(82, 76, 76, 0.5);
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 125, 63);
+}
+#guid_c7787aeb_b0c8_42c8_8059_7b9c050cab28 {
+  width: 122px;
+  font-family: Rockwell;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.39);
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 32, 151);
+}
+#guid_a5786a09_ad5f_4ef1_abd2_74dfb86718a4 {
+  width: 52px;
+  font-family: Rockwell;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.39);
+  font-weight: 400;
+  transform-origin: 50% 50%;
+  transform: matrix(1, 0, 0, 1, 295, 162);
+}
+
+      
+
+  </style>
+
+  
+
+        <!-- /////////////////////// -->
+        <!-- Player -->
+        <div class="wrapper" style="position: relative; width: 100%; height: 100%;">
+          <div id="player" class="fusion--player" style="width: 100%; height: 100%; ">
+            <div class="fusion--viewport">
+            
+            
+
+            
+            <div class="fusion--scene fusion--scene--default scene-guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3">
+              <div class="fusion--scene--content">
+                
+<div id="guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3" class="artboard scene" >
+<div id="guid_06a851cc_2b15_46ed_859a_ac334f1f81c9" class="hero-element" >
+</div>
+<div id="guid_673d3de9_0396_4300_96c0_01919f91be2c" class="hero-element" hero-fx-jump="{}" >
+      <svg width="300" height="300" style="pointer-events: none; overflow: visible; position: absolute; left: 0px; top: 0px;">
+        <path id="guid_673d3de9_0396_4300_96c0_01919f91be2c-path" d="M 35.508 31.127 L 28.498 24.117 C 28.181 23.801 27.752 23.625 27.302 23.625 L 26.156 23.625 C 28.097 21.143 29.250 18.021 29.250 14.625 C 29.250 6.546 22.704 0 14.625 0 C 6.546 0 0 6.546 0 14.625 C 0 22.704 6.546 29.250 14.625 29.250 C 18.021 29.250 21.143 28.097 23.625 26.156 L 23.625 27.302 C 23.625 27.752 23.801 28.181 24.117 28.498 L 31.127 35.508 C 31.788 36.169 32.857 36.169 33.511 35.508 L 35.501 33.518 C 36.162 32.857 36.162 31.788 35.508 31.127 Z M 14.625 23.625 C 9.654 23.625 5.625 19.603 5.625 14.625 C 5.625 9.654 9.647 5.625 14.625 5.625 C 19.596 5.625 23.625 9.647 23.625 14.625 C 23.625 19.596 19.603 23.625 14.625 23.625 Z" fill="#000"  stroke-width="1" style="pointer-events: all" />
+      </svg>
+    
+</div>
+<div id="guid_7cd1d4c4_aef2_4969_9818_e95f8721fd9e" class="hero-element" >Search
+</div>
+<div id="guid_c7787aeb_b0c8_42c8_8059_7b9c050cab28" class="hero-element" >Our cars
+</div>
+<div id="guid_a5786a09_ad5f_4ef1_abd2_74dfb86718a4" class="hero-element" >3 of 3
+</div>
+</div>
+              </div>
+            </div> 
+
+
+      
+
+            </div>
+          </div>
+        </div>
+
+      
+
+
+  <!-- Hero/Fusion Player -->
+  <script>
+    
+      document.addEventListener('DOMContentLoaded', function () {
+        window.player = new fusion.Player({
+          id: 'player',
+          // debug: true, 
+          scenes: [
+            
+            { 
+              id: 'guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3', 
+              type: 'flat', 
+              width: 375, 
+              height: 812,
+              fit: true, 
+              center: true,
+              plugins: [
+                // {id: 'visualDebugger', options: {centerV: true}},
+              ]
+            },              
+      
+          ]
+        });
+        player.loadScene('guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3');      
+      });
+    
+  </script>
+
+  <!-- Hero Scenes -->
+  <script>
+    
+      //---
+      // Scene: guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3
+      document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function() {
+          var log = console.log;
+          var player = window.player;
+          var scene = window.player.getScene('guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3');          
+    
+        }, 1);
+      }); // Scene end    
+    
+  </script>
+
+  <!-- Hero Timelines -->
+  <script>
+    
+    //---
+    // Scene: guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3
+    document.addEventListener('DOMContentLoaded', function () {
+      var player = window.player;
+      var scene = window.player.getScene('guid_2546b5f8_d757_4ac1_96e9_578759cbd2a3');
+      var log = console.log;
+      var tl = gsap.timeline({paused: true});
+      scene.timeline = tl;
+      
+    });
+    
+  </script>
+
+  
+  
+</body>
+</html>
